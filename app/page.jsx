@@ -25,7 +25,7 @@ export default function Home() {
             </a>
           </div>
 
-          {/* IMAGE */}
+          {/* IMAGE 
           <div className="relative">
             <img
               src="/images/hero-product.png"
@@ -33,7 +33,7 @@ export default function Home() {
               className="rounded-2xl shadow-2xl opacity-90"
             />
             <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-black/40 to-transparent" />
-          </div>
+          </div>*/}
 
         </div>
       </section>
