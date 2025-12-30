@@ -90,6 +90,56 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ================= DIFFERENTIATION ================= */}
+<section className="max-w-5xl mx-auto px-6 py-28">
+  <h2 className="text-3xl font-bold text-center mb-6">
+    What makes AlphaPulse EA different
+  </h2>
+
+  <p className="text-gray-400 text-center max-w-3xl mx-auto mb-16">
+    Most trading systems look good in demo accounts. Very few are designed
+    to survive real execution conditions.
+  </p>
+
+  <div className="space-y-12 text-gray-300">
+
+    <div>
+      <h3 className="text-xl font-semibold mb-3">
+        Demo-to-Real Transition
+      </h3>
+      <p>
+        AlphaPulse EA is built with the explicit goal of bridging the gap
+        between demo and real trading. Execution logic is designed under
+        conservative, real-market assumptions.
+      </p>
+    </div>
+
+    <div>
+      <h3 className="text-xl font-semibold mb-3">
+        Spread Awareness
+      </h3>
+      <p>
+        The system accounts for variable spreads, spread expansion and
+        execution costs, avoiding entries that only work in ideal demo
+        environments.
+      </p>
+    </div>
+
+    <div>
+      <h3 className="text-xl font-semibold mb-3">
+        Margin & Capital Constraints
+      </h3>
+      <p>
+        AlphaPulse EA respects real margin usage, avoids over-leveraging
+        and adapts position sizing to protect capital under real account
+        conditions.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
       {/* ================= PRICING ================= */}
       <section
         id="pricing"
